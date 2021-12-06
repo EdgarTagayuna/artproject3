@@ -1,0 +1,42 @@
+
+
+p{
+   font-family:'Open Sans', sans-serif;
+   animation-name: ColorChange;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   font-size: 20pt;
+}
+
+.body{
+   animation-name: backGradient;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+}
+
+@keyframes ColorChange{
+   from{
+       color:pink
+   }
+   20%{
+       color:rgb(29, 182, 243)
+   }
+   60%{
+       color:rgb(193, 23, 245)
+   }
+}
+
+@keyframes backGradient{
+   from{
+       color:rgb(23, 208, 214)
+   }
+   20%{
+       color:coral
+   }
+   60%{
+       color:brown
+   }
+}
